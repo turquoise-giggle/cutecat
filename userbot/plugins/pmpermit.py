@@ -13,7 +13,7 @@ CACHE = {}
 PMPERMIT_PIC = Config.PMPERMIT_PIC
 DEFAULTUSER = str(
     ALIVE_NAME) if ALIVE_NAME else "**No name set yet nibba, check pinned message in** @XtraTgBot"
-USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth you are blocked by my master's userbot.` **Now GTFO, i'm playing minecraft** "
+USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth you are blocked by my master's userbot.` **You will be unblocked once my master get back** "
 
 if Var.PRIVATE_GROUP_ID is not None:
     @borg.on(admin_cmd(pattern="approve ?(.*)"))
@@ -118,9 +118,9 @@ if Var.PRIVATE_GROUP_ID is not None:
         USER_BOT_NO_WARN = (
             f"[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id={catid})\n\n"
             "This is auto generated message from cat security service\n\n"
-            f"Hi buddy my master {DEFAULTUSER} haven't approved you yet. so ,"
-            "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years.\n\n"
-            "**Send** `/start` ** so that my master can decide why you're here.**")
+            f"Hi buddy my master Tripo is Offline..he can reply you only after he will be back...if you are here to request something then please go there @pethagorean_triplet ... if you are muted/banned or warned in groups he is admin in then please contact other admins or @Charlesottoputhjr0212 / @sdnyanesh . so ,"
+                    "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years.\n\n"
+                    "**Send** `/start` ** so that my master can decide why you're here.**")
         if USER_BOT_NO_WARN == message_text:
             # userbot's should not reply to other userbot's
             # https://core.telegram.org/bots/faq#why-doesn-39t-my-bot-see-messages-from-other-bots
@@ -184,7 +184,7 @@ if Var.PRIVATE_GROUP_ID is not None:
             else:
                 USER_BOT_NO_WARN = (
                     "This is auto generated message from cat security service\n\n"
-                    f"Hi buddy my master {DEFAULTUSER} haven't approved you yet. so ,"
+                    f"Hi buddy my master Tripo is Offline..he can reply you only after he will be back...if you are here to request something then please go there @pethagorean_triplet ... if you are muted/banned or warned in groups he is admin in then please contact other admins or @Charlesottoputhjr0212 / @sdnyanesh . so ,"
                     "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years.\n\n"
                     "**Send** `/start` ** so that my master can decide why you're here.**")
             r = await event.reply(USER_BOT_NO_WARN, file=PMPERMIT_PIC)
@@ -198,7 +198,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 USER_BOT_NO_WARN = (
                     f"[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id={catid})\n\n"
                     "This is auto generated message from cat security service\n\n"
-                    f"Hi buddy my master {DEFAULTUSER} haven't approved you yet. so ,"
+                    f"Hi buddy my master Tripo is Offline..he can reply you only after he will be back...if you are here to request something then please go there @pethagorean_triplet ... if you are muted/banned or warned in groups he is admin in then please contact other admins or @Charlesottoputhjr0212 / @sdnyanesh . so ,"
                     "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years.\n\n"
                     "**Send** `/start` ** so that my master can decide why you're here.**")
             r = await event.reply(USER_BOT_NO_WARN)
